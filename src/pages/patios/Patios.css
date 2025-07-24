@@ -1,0 +1,175 @@
+.container {
+  max-width: 485px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.titulo {
+  text-align: center;
+  color: #fff;
+  font-size: 1.5rem;
+  margin-bottom: 16px;
+  font-weight: bold;
+}
+
+.btn-add {
+  background-color: #3CFF00;
+  color: white;
+  font-weight: bold;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  margin: 0 auto 24px;
+  display: block;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-add:hover {
+  background-color: #51A039;
+}
+
+/* Área verde escura que envolve os cards */
+.card-wrapper {
+  background-color: #1E3617;
+  border-radius: 12px;
+  padding: 16px;
+  height: 560px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.card-wrapper::-webkit-scrollbar {
+  width: 6px;
+}
+
+.card-wrapper::-webkit-scrollbar-thumb {
+  background-color: #3CFF00;
+  border-radius: 6px;
+}
+
+.sem-dados {
+  color: #ccc;
+  font-size: 0.95rem;
+  text-align: center;
+  padding: 24px 8px;
+}
+
+/* Card individual */
+.card-patio {
+  background-color: white;
+  border-radius: 8px;
+  padding: 16px;
+  color: black;
+  text-align: left;
+}
+
+.card-patio p {
+  margin: 4px 0;
+  font-size: 0.95rem;
+}
+
+.card-patio strong {
+  font-weight: bold;
+}
+
+.card-patio em {
+  font-style: italic;
+}
+
+/* Botões dentro do card */
+.botoes-card {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.btn-editar,
+.btn-apagar,
+.btn-vagas {
+  width: 84px;
+  height: 24px;
+  font-weight: bold;
+  font-size: 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Cores exatas */
+.btn-editar {
+  background-color: #1E3617;
+  color: white;
+}
+
+.btn-apagar {
+  background-color: #000000;
+  color: white;
+}
+
+.btn-vagas {
+  background-color: #51A039;
+  color: white;
+  font-size: 10px;
+}
+
+/* ========================== */
+/* ===== Modal de delete ==== */
+/* ========================== */
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(10, 10, 10, 0.85);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+    height: 200px;
+  background-color: #0A0A0A;
+  padding: 24px;
+  border: solid 1px;
+  border-color: #3CFF00;
+  border-radius: 12px;
+  text-align: center;
+  max-width: 300px;
+}
+
+.modal-content p {
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.btn-confirmar {
+  background-color: #3CFF00;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  width: 100%;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.btn-cancelar {
+  background-color: #1E3617;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  width: 100%;
+  cursor: pointer;
+}
