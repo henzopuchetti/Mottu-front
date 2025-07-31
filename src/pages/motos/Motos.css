@@ -1,0 +1,122 @@
+.container {
+  max-width: 485px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.titulo {
+  text-align: center;
+  color: #fff;
+  font-size: 1.5rem;
+  margin-bottom: 16px;
+  font-weight: bold;
+}
+
+.btn-add {
+  background-color: #3CFF00;
+  color: white;
+  font-weight: bold;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  margin: 0 auto 24px;
+  display: block;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-add:hover {
+  background-color: #51A039;
+}
+
+.card-wrapper {
+  background-color: #1E3617;
+  border-radius: 12px;
+  padding: 16px;
+  min-height: 560px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  overflow-y: auto;
+}
+
+.subtitulo {
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.texto-pergunta {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.btn-patio {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-patio:hover {
+  background-color: #ccc;
+}
+
+.card-moto {
+  background-color: white;
+  border-radius: 8px;
+  padding: 16px;
+  color: black;
+  text-align: left;
+}
+
+.card-moto p {
+  margin: 4px 0;
+  font-size: 0.95rem;
+}
+
+.botoes-card {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.btn-editar,
+.btn-apagar {
+  width: 84px;
+  height: 24px;
+  font-weight: bold;
+  font-size: 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-editar {
+  background-color: #1E3617;
+  color: white;
+}
+
+.btn-apagar {
+  background-color: #000000;
+  color: white;
+}
+
+.btn-voltar {
+  margin-top: 12px;
+  background-color: #51A039;
+  color: white;
+  font-weight: bold;
+  padding: 6px 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}

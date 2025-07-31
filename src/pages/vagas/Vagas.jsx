@@ -45,7 +45,7 @@ function Vagas() {
           </div>
         </div>
 
-        <button className="btn-voltar" onClick={() => navigate('/patios')}>
+        <button className="btn-voltar" onClick={() => navigate('/')}>
           Voltar
         </button>
       </div>

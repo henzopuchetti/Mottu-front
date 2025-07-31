@@ -26,7 +26,7 @@ function Home() {
         <h3>Onde Você Quer Acessar:</h3>
         <div className="buttons">
           <Link to="/patios"><button>Pátios</button></Link>
-          <Link to="/vagas"><button>Vagas</button></Link>
+          <Link to="/consultar-vagas"><button>Vagas</button></Link>
           <Link to="/motos"><button>Motos</button></Link>
           <Link to="/evento"><button>Evento</button></Link>
         </div>

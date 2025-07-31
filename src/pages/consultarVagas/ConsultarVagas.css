@@ -1,0 +1,71 @@
+.container {
+  max-width: 485px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.titulo {
+  text-align: center;
+  color: #fff;
+  font-size: 1.5rem;
+  margin-bottom: 16px;
+  font-weight: bold;
+}
+
+.card-wrapper {
+  background-color: #1E3617;
+  border-radius: 12px;
+  padding: 16px;
+  height: 560px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.card-wrapper::-webkit-scrollbar {
+  width: 6px;
+}
+
+.card-wrapper::-webkit-scrollbar-thumb {
+  background-color: #3CFF00;
+  border-radius: 6px;
+}
+
+.sem-dados {
+  color: #ccc;
+  font-size: 0.95rem;
+  text-align: center;
+  padding: 24px 8px;
+}
+
+.card-patio {
+  background-color: white;
+  border-radius: 8px;
+  padding: 16px;
+  color: black;
+  text-align: left;
+}
+
+.card-patio p {
+  margin: 4px 0;
+  font-size: 0.95rem;
+}
+
+.botoes-card {
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+}
+
+.btn-vagas {
+  width: 140px;
+  height: 28px;
+  font-weight: bold;
+  font-size: 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #51A039;
+  color: white;
+}
